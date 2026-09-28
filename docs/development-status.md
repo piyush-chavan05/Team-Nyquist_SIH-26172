@@ -182,4 +182,3 @@ Last updated: 2026-09-28
 2. **ESP32-S3 board not selected** — firmware cannot be physically compiled or flashed.
 3. **Microphone not selected** — I²S/PDM driver cannot be finalized.
 4. **No training data** — model architecture exists but trained weights are pending.
-5. **GitHub push pending** — remote URL not yet provided.
