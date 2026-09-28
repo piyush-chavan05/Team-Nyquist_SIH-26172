@@ -39,6 +39,9 @@ def frame_audio(
     if hop_size > frame_size:
         raise ValueError("hop_size should be <= frame_size for overlapping frames")
 
+    if len(audio) == 0:
+        return np.empty((0, frame_size), dtype=audio.dtype)
+
     if pad:
         # Pad so that the last partial frame is included
         n_frames = 1 + max(0, (len(audio) - frame_size + hop_size - 1) // hop_size)
