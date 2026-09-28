@@ -372,7 +372,12 @@ low-latency-voice-activator/
 
 **SIH Problem Statement:** Low Latency and Efficient Voice Activator for Edge Devices
 
-Team: *(to be filled by project owner)*
+Team: Yajuvendra Ghatage (Lead)
+      Shreeyash Mahatme
+      Piyush Chavan
+      Aditya Mukadam
+      Aditi Patil
+      Rehan Sayyad
 
 ---
 
