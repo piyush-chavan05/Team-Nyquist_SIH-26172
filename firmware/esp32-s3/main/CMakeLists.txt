@@ -1,0 +1,35 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "app/app_controller.c"
+        "audio/audio_capture.c"
+        "buffer/ring_buffer.c"
+        "features/feature_extractor.c"
+        "kws/kws.c"
+        "kws/kws_model.c"
+        "wake/wake_detector.c"
+        "state/state_machine.c"
+        "network/wifi.c"
+        "network/audio_stream.c"
+        "diagnostics/diagnostics.c"
+    INCLUDE_DIRS
+        "."
+        "app"
+        "audio"
+        "buffer"
+        "features"
+        "kws"
+        "wake"
+        "state"
+        "network"
+        "diagnostics"
+    REQUIRES
+        driver
+        esp_wifi
+        esp_netif
+        esp_http_client
+        nvs_flash
+        freertos
+        log
+        heap
+)
